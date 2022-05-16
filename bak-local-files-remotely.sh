@@ -10,9 +10,9 @@ printf "about to ssh\n"
 
 ssh -i ~/work-2019-06.pem ubuntu@172.31.7.21 mkdir -pv $mydir
 
-printf "\nabout to scp\n"
+# printf "\nabout to scp\n"
 
-scp -i ~/work-2019-06.pem bash-history-$datevao.txt ubuntu@172.31.7.21:~/$mydir/
+# scp -i ~/work-2019-06.pem bash-history-$datevao.txt ubuntu@172.31.7.21:~/$mydir/
 
 printf "\nabout to rsync\n"
 
